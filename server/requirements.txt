@@ -1,0 +1,24 @@
+# Core LangGraph + LangChain ecosystem
+langgraph>=0.3.31
+langgraph-checkpoint>=2.0.24
+langchain-core>=0.3.52
+langchain-community>=0.3.21
+langchain-google-genai>=3.0.0
+
+# Utilities and environment handling
+python-dotenv>=1.1.0
+
+# FastAPI framework and dependencies
+fastapi>=0.117.1
+uvicorn>=0.34.1
+uvicorn[standard] 
+gunicorn>=23.0.0
+
+# JSON and HTTP handling (standard dependencies)
+orjson>=3.10.16
+
+# For Tavily search integration
+tavily-python>=0.5.0  # provides TavilySearchResults tool
+
+# Optional but useful for async behavior and CORS middleware
+httpx>=0.28.1
